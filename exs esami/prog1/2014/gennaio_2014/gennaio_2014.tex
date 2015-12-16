@@ -1,0 +1,174 @@
+\documentclass[fleqn,italian]{scrartcl}
+\usepackage{a4wide}
+\usepackage{babel, latexsym, amssymb, amsmath, amsfonts, makeidx}
+\usepackage{verbatim}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+%backgroundcolor=\color{lbcolor},
+    tabsize=4,    
+%   rulecolor=,
+    language=[GNU]C++,
+    basicstyle=\scriptsize,
+    upquote=true,
+    aboveskip={1.5\baselineskip},
+    columns=fixed,
+    showstringspaces=false,
+    extendedchars=false,
+    breaklines=true,
+    prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+    %frame=single,
+    %numbers=left,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    identifierstyle=\ttfamily,
+    keywordstyle=\color[rgb]{0,0,1},
+    commentstyle=\color[rgb]{0.026,0.112,0.095},
+    stringstyle=\color[rgb]{0.627,0.126,0.941},
+    numberstyle=\color[rgb]{0.205, 0.142, 0.73},
+%        \lstdefinestyle{C++}{language=C++,style=numbers}’.
+}
+\lstset{
+    %backgroundcolor=\color{lbcolor},
+    tabsize=4,
+  language=C++,
+  captionpos=b,
+  tabsize=3,
+  %frame=lines,
+  %numbers=left,
+  %numberstyle=\tiny,
+  %numbersep=5pt,
+  breaklines=true,
+  showstringspaces=false,
+  basicstyle=\footnotesize,
+%  identifierstyle=\color{magenta},
+  keywordstyle=\color[rgb]{0,0,1},
+  %commentstyle=\color{Darkgreen},
+  stringstyle=\color{red}
+}
+  
+\date{8 gennaio 2014}
+\title{Programmazione 1}
+\subtitle{Esame completo con soluzioni del prof}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+Nel file {\tt gennaio\_2014.zip} ci sono tutti i sorgenti comodi da copiare.
+\end{center}
+\newpage
+
+\section*{Esercizio 1a}
+\input{./es1/testo_A11.tex}
+\newpage
+\subsection*{{esercizio1.cc}}
+\lstinputlisting{./es1/soluzione_A11.cc}
+\newpage
+
+\section*{Esercizio 1b}
+\input{./es1/testo_A12.tex}
+\newpage
+\subsection*{{esercizio1.cc}}
+\lstinputlisting{./es1/soluzione_A12.cc}
+\newpage
+
+\section*{Esercizio 1c}
+\input{./es1/testo_A13.tex}
+\newpage
+\subsection*{{esercizio1.cc}}
+\lstinputlisting{./es1/soluzione_A13.cc}
+\newpage
+
+\section*{Esercizio 1d}
+\input{./es1/testo_A14.tex}
+\newpage
+\subsection*{{esercizio1.cc}}
+\lstinputlisting{./es1/soluzione_A14.cc}
+\newpage
+
+\section*{Esercizio 2a}
+\input{./es2/testo_A21.tex}
+\newpage
+\subsection*{{esercizio2.cc}}
+\lstinputlisting{./es2/soluzione_A21.cc}
+\newpage
+
+\section*{Esercizio 2b}
+\input{./es2/testo_A22.tex}
+\newpage
+\subsection*{{esercizio2.cc}}
+\lstinputlisting{./es2/soluzione_A22.cc}
+\newpage
+
+\section*{Esercizio 2c}
+\input{./es2/testo_A23.tex}
+\newpage
+\subsection*{{esercizio2.cc}}
+\lstinputlisting{./es2/soluzione_A23.cc}
+\newpage
+
+\section*{Esercizio 2d}
+\input{./es2/testo_A24.tex}
+\newpage
+\subsection*{{esercizio2.cc}}
+\lstinputlisting{./es2/soluzione_A24.cc}
+\newpage
+
+\section*{Esercizio 3a}
+\input{./es3/testo_A31.tex}
+\newpage
+\subsection*{{queue\_main.cc}}
+\lstinputlisting{./es3/queue_main_A31.cc}
+\subsection*{{queue.h}}
+\lstinputlisting{./es3/queue_A31.h}
+\subsection*{{queue.cc}}
+\lstinputlisting{./es3/queue_A31.cc}
+\newpage
+
+\section*{Esercizio 3b}
+\input{./es3/testo_A32.tex}
+\newpage
+\subsection*{{queue\_main.cc}}
+\lstinputlisting{./es3/queue_main_A32.cc}
+\subsection*{{queue.h}}
+\lstinputlisting{./es3/queue_A32.h}
+\subsection*{{queue.cc}}
+\lstinputlisting{./es3/queue_A32.cc}
+\newpage
+
+\section*{Esercizio 3c}
+\input{./es3/testo_A33.tex}
+\newpage
+\subsection*{{queue\_main.cc}}
+\lstinputlisting{./es3/queue_main_A33.cc}
+\subsection*{{queue.h}}
+\lstinputlisting{./es3/queue_A33.h}
+\subsection*{{queue.cc}}
+\lstinputlisting{./es3/queue_A33.cc}
+\newpage
+
+\section*{Esercizio 3d}
+\input{./es3/testo_A34.tex}
+\newpage
+\subsection*{{queue\_main.cc}}
+\lstinputlisting{./es3/queue_main_A34.cc}
+\subsection*{{queue.h}}
+\lstinputlisting{./es3/queue_A34.h}
+\subsection*{{queue.cc}}
+\lstinputlisting{./es3/queue_A34.cc}
+\newpage
+
+\section*{Esercizio 4}
+\input{./es4/testo_A41.tex}
+\newpage
+\subsection*{{esercizio4.cc}}
+\lstinputlisting{./es4/soluzione_A41.cc}
+
+\end{document}

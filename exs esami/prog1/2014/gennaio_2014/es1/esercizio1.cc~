@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+voidfloat ** leggiMatrice(& stream input,int r, int c);
+int main(int argc, char argv[]){
+  if(argc!=2){
+    cout << "Formato ./a.out nomefile" << endl;
+    exit(0);
+  }
+  leggiMatrice
+  return 0;
+}
+voidfloat ** leggiMatrice(& stream input,int r, int c){
+
+  return m;
+}
